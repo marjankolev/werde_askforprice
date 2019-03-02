@@ -1,0 +1,40 @@
+
+{
+    "name":        "werde/askforprice",
+    "description": "Summernote WYSIWYG Editor for OXID eShop.",
+    "type":        "oxideshop-module",
+    "keywords":    [
+        "oxid",
+        "modules",
+        "eShop",
+        "WYSIWYG",
+        "Summernote",
+        "Editor"
+    ],
+    "homepage":    "https://www.oxid-esales.com/en/home.html",
+    "license": "GPL-3.0-only",
+    "authors":     [
+        {
+            "name":  "OXID eSales AG & digidesk - media solutions",
+            "email": "info@oxid-esales.com"
+        }
+    ],
+    "extra":       {
+        "oxideshop": {
+            "target-directory": "werde/askforprice"
+        }
+    },
+    "require":     {
+        "php": ">=5.6"
+    },
+    "autoload":    {
+        "psr-4": {
+            "Werde\\AskForPrice\\": "./source/modules/werde/askforprice"
+        }
+    }
+}
+
+
+
+
+
